@@ -40,8 +40,14 @@ def play(songs_array)
   puts "Invalid input, please try again" 
 end 
 
-def jukebox
+def exit_jukebox 
+  puts "Goodbye"
+end 
+
+def run
   puts "Please enter a command:"
-  input = gets 
+  input = gets.strip 
+  if input == "exit"
+    exit jukebox 
 end
 
