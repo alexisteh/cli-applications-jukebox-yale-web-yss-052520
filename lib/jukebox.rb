@@ -25,6 +25,8 @@ def list(songs_array)
   end 
 end 
 
+list(songs)
+
 def jukebox
   puts "Please enter a command:"
   input = gets 
