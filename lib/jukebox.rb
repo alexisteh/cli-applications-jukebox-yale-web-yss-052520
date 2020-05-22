@@ -31,11 +31,13 @@ def play(songs_array)
   songs_array.each_with_index do |song,ind|
     if input == (ind+1).to_s 
       puts "Playing #{song}"
+      return 
     elsif input == song
       puts "Playing #{song}"
+      return 
     end 
   end 
-  puts 
+  puts "Invalid input, please try again" 
 end 
 
 def jukebox
