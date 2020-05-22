@@ -25,7 +25,9 @@ def list(songs_array)
   end 
 end 
 
-list(songs)
+def play(songs_array)
+  puts ""
+end 
 
 def jukebox
   puts "Please enter a command:"
