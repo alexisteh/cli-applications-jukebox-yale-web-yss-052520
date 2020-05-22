@@ -15,4 +15,7 @@ def jukebox
   puts "Please enter a command:"
   input = gets
 end
- 
+
+def help 
+  
+end 
