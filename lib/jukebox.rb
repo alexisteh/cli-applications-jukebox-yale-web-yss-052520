@@ -11,15 +11,22 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def jukebox
-  puts "Please enter a command:"
-  input = gets
-end
-
 def help 
   puts "I accept the following commands:"
   puts "- help : displays this help message" 
   puts "- list : displays a list of songs you can play"
   puts "- play : lets you choose a song to play" 
-  puts ""
+  puts "- exit : exits this program" 
 end 
+
+def list(songs_array) 
+  songs_array.each_with_index do |song,ind| 
+    puts "#{ind+1}. #{song}" 
+  end 
+end 
+
+def jukebox
+  puts "Please enter a command:"
+  input = gets 
+end
+
