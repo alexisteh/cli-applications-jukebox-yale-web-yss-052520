@@ -12,6 +12,7 @@ songs = [
 ]
 
 def jukebox
-  puts ""
+  puts "Please enter a command:"
+  
 end
  
