@@ -57,6 +57,6 @@ def run(songs_array)
     exit_jukebox
     return 
   end 
-  run 
+  run(songs_array)
 end
 
